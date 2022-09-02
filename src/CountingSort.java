@@ -31,7 +31,7 @@ public class CountingSort {
                                      .toArray();
                 minValue = inputs[0];
                 maxValue = inputs[1];
-                toSort = Arrays.copyOfRange(inputs, 2, args.length);
+                toSort = Arrays.copyOfRange(inputs, 2, inputs.length);
             }
         } catch (NumberFormatException e) {
             System.out.println("Only integers may be in the input. Fix and try again.");
